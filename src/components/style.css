@@ -1,0 +1,60 @@
+/* style.css */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    font-size: 19px;
+    height: 55px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    justify-content: right; 
+    margin-left: 200px;
+   height: 125px;
+   flex-wrap: wrap;
+   cursor: pointer;
+   
+  }
+  
+  nav a:last-child {
+    margin-right: 0;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    height: 55px;
+    margin-top: 450px;
+  }
+  
+  .footer img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+   
+  }
+  
+.content {
+ margin-top:130px ;
+ background-color: #EDEDE9;
+}
+body {
+    background-color: #EDEDE9;
+}
+
+nav a:hover {
+    color: rgb(76, 177, 240); /* Change the color to blue on hover */
+  }
