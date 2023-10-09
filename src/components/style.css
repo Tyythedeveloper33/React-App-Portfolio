@@ -1,6 +1,6 @@
 /* style.css */
 header {
-    background-color: #333;
+    background-color: black;
     color: #fff;
     padding: 10px;
     display: flex;
@@ -12,11 +12,16 @@ header {
     align-items: center;
     justify-content: space-between; 
     font-size: 19px;
-    height: 55px;
+    height: 80px;
+   width:100%;
+   flex: auto;
+   align-items: center;
+   flex-wrap: wrap;
+   
   }
   
   nav a {
-    color: #fff;
+    color: #00B2FF;
     text-decoration: none;
     justify-content: right; 
     margin-left: 200px;
@@ -31,12 +36,12 @@ header {
   }
   
   .footer {
-    background-color: #333;
+    background-color: black;
     color: #fff;
     text-align: center;
     padding: 20px;
     height: 55px;
-    margin-top: 450px;
+    margin-top: 30px;
   }
   
   .footer img {
@@ -48,13 +53,47 @@ header {
   }
   
 .content {
- margin-top:130px ;
- background-color: #EDEDE9;
+ margin-top:40px ;
+ background-color: white;
+ transform-origin: top;
+ /* add depth with shadows*/
+ box-shadow: 0px 0px 145px rgba(0, 0, 0,0.3);
+ padding: 15px;
+ transform: perspective(1000px); 
+
 }
 body {
-    background-color: #EDEDE9;
+    background-color: black;
 }
 
 nav a:hover {
-    color: rgb(76, 177, 240); /* Change the color to blue on hover */
+    color: whitesmoke; /* Change the color to blue on hover */
   }
+  .owner{
+    color: whitesmoke;
+  }
+  h1{
+    color: black;
+  }
+  h2{
+    color: #00B2FF
+  }
+  p2 {
+color:black
+  }
+  p{
+    color:#00B2FF
+  }
+  .button {
+    margin-left: 50%;
+    border-radius: 10%;
+    width: 50px;
+    background-color:#00B2FF;
+    color: black;
+    cursor: pointer;
+    box-shadow: 0px 0px 145px rgba(0, 0, 0,0.3);
+    transform: perspective(1000px);
+   
+
+}
+

@@ -1,7 +1,14 @@
 import React from 'react';
+import contactMe from './contact';
 import './style.css';
+
+
+const owner ={
+  title: "Tyler's Portfolio"
+  }
+  
 // TODO: Add a comment explaining what a react component is
-function HelloReact() {
+function HelloReact()  {
   // const text = 'some text';
 
   // TODO: Add a comment explaining what JSX is and the significance of the curly braces
@@ -9,19 +16,26 @@ function HelloReact() {
       <div>
         <header>
           <nav>
-            <div>TYLER</div>
+            <div className='owner'>{owner.title}</div>
             <div>
-              <a href="#">About Me</a>
+              <a href="/">About Me</a>
               <a href="#">Portfolio</a>
-              <a href="#">Contact</a>
+
+             
+               <a href= "/contact"> Contact</a>
+              
               <a href="#">Resume</a>
             </div>
           </nav>
         </header>
   
         <div className="content">
-          {"this is my portfolio page" }
+          <p>Hi my name is</p>
+          <h1>Tyler Webster</h1>
+          <h2>I'm a Full Stack Developer.</h2><hr></hr>
+          <p2>I'm a full-stack developer specializing in building (and occasionally designing) exeptional digital experiences. Currently, I'm focused on building responsive full-stack web applications.</p2>
         </div>
+        <button className='button'> view work</button>
   
         <div className="footer">
           <a href="#"><img src="logo1.png" alt="Logo 1" /></a>
