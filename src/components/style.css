@@ -1,4 +1,5 @@
 /* style.css */
+
 header {
     background-color: black;
     color: #fff;
@@ -7,7 +8,7 @@ header {
     justify-content: space-between;
   }
   
-  nav {
+  .NavBar {
     display: flex;
     align-items: center;
     justify-content: space-between; 
@@ -20,7 +21,7 @@ header {
    
   }
   
-  nav a {
+  .NavBar a {
     color: #00B2FF;
     text-decoration: none;
     justify-content: right; 
@@ -31,12 +32,12 @@ header {
    
   }
   
-  nav a:last-child {
+  .NavBar a:last-child {
     margin-right: 0;
   }
   
   .footer {
-    background-color: black;
+    background-color:rgb(27, 25, 25);
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -63,10 +64,10 @@ header {
 
 }
 body {
-    background-color: black;
+    background-color: rgb(27, 25, 25);
 }
 
-nav a:hover {
+.NavBar a:hover {
     color: whitesmoke; /* Change the color to blue on hover */
   }
   .owner{
@@ -84,16 +85,19 @@ color:black
   p{
     color:#00B2FF
   }
-  .button {
+  Button  {
     margin-left: 50%;
-    border-radius: 10%;
-    width: 50px;
-    background-color:#00B2FF;
-    color: black;
+   
+    
     cursor: pointer;
-    box-shadow: 0px 0px 145px rgba(0, 0, 0,0.3);
-    transform: perspective(1000px);
+   
    
 
+}
+.button {
+    background-color:#00B2FF; 
+     box-shadow: 0px 0px 145px rgba(0, 0, 0,0.3);
+    transform: perspective(1000px);
+    color: white;
 }
 

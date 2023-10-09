@@ -1,7 +1,9 @@
 import React from 'react';
 import contactMe from './contact';
 import './style.css';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Button } from 'react-bootstrap';
+import { Nav } from 'react-bootstrap';
 
 const owner ={
   title: "Tyler's Portfolio"
@@ -15,7 +17,7 @@ function HelloReact()  {
   return (
       <div>
         <header>
-          <nav>
+          <Nav className='NavBar'>
             <div className='owner'>{owner.title}</div>
             <div>
               <a href="/">About Me</a>
@@ -26,7 +28,7 @@ function HelloReact()  {
               
               <a href="#">Resume</a>
             </div>
-          </nav>
+          </Nav>
         </header>
   
         <div className="content">
@@ -34,8 +36,9 @@ function HelloReact()  {
           <h1>Tyler Webster</h1>
           <h2>I'm a Full Stack Developer.</h2><hr></hr>
           <p2>I'm a full-stack developer specializing in building (and occasionally designing) exeptional digital experiences. Currently, I'm focused on building responsive full-stack web applications.</p2>
+        <Button className='button'> view work</Button>
         </div>
-        <button className='button'> view work</button>
+        
   
         <div className="footer">
           <a href="#"><img src="logo1.png" alt="Logo 1" /></a>

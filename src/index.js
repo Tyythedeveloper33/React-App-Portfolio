@@ -1,6 +1,6 @@
 // TODO: Add a comment giving a brief description of what React is
 import React from 'react';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 // TODO: Add a comment that describes the difference between react and react-dom
 import ReactDOM from 'react-dom';
 
