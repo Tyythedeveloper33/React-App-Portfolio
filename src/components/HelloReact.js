@@ -1,14 +1,12 @@
 import React from 'react';
-import contactMe from './contact';
+
 import './style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button } from 'react-bootstrap';
-import { Nav } from 'react-bootstrap';
 
-const owner ={
-  title: "Tyler's Portfolio"
-  }
-  
+import NavBar from './navbar';
+import Logo from './logo';
+
 // TODO: Add a comment explaining what a react component is
 function HelloReact()  {
   // const text = 'some text';
@@ -16,20 +14,7 @@ function HelloReact()  {
   // TODO: Add a comment explaining what JSX is and the significance of the curly braces
   return (
       <div>
-        <header>
-          <Nav className='NavBar'>
-            <div className='owner'>{owner.title}</div>
-            <div>
-              <a href="/">About Me</a>
-              <a href="#">Portfolio</a>
-
-             
-               <a href= "/contact"> Contact</a>
-              
-              <a href="#">Resume</a>
-            </div>
-          </Nav>
-        </header>
+      <NavBar></NavBar>
   
         <div className="content">
           <p>Hi my name is</p>
@@ -40,11 +25,7 @@ function HelloReact()  {
         </div>
         
   
-        <div className="footer">
-          <a href="#"><img src="logo1.png" alt="Logo 1" /></a>
-          <a href="#"><img src="logo2.png" alt="Logo 2" /></a>
-          <a href="#"><img src="logo3.png" alt="Logo 3" /></a>
-        </div>
+        <Logo></Logo>
       </div>
     );
   }

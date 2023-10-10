@@ -1,24 +1,14 @@
 import React from 'react';
 import './style.css';
-import { Route } from 'react-router-dom';
+import NavBar from './navbar';
 // TODO: Add a comment explaining what a react component is
-function contactMe() {
+function ContactMe() {
   // const text = 'some text';
 
   // TODO: Add a comment explaining what JSX is and the significance of the curly braces
   return (
       <div>
-        <header>
-          <nav>
-            <div>TYLER</div>
-            <div>
-              <a href="#">About Me</a>
-              <a href="#">Portfolio</a>
-              <a href="#">Contact</a>
-              <a href="#">Resume</a>
-            </div>
-          </nav>
-        </header>
+        <NavBar></NavBar>
   
         <div className="content">
           {"Contact Me" }
@@ -81,4 +71,4 @@ function contactMe() {
   
 
 
-export default contactMe;
+export default ContactMe;
