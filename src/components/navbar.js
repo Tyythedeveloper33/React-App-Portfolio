@@ -7,6 +7,7 @@ import { Nav } from 'react-bootstrap';
  import ContactMe from './contact';
  import Resume from './resume';
 import Port from './port';
+ import { Link } from 'react-router-dom';
 // import NavTabs from './NavTabs';
  
 
@@ -17,24 +18,24 @@ const owner ={
 // TODO: Add a comment explaining what a react component is
 function NavBar() {
     // TODO: You can define 'owner' here or pass it as a prop
-    const [currentPage, setCurrentPage] = useState('about');
+    // const [currentPage, setCurrentPage] = useState('about');
 
-    // TODO: Add a comment describing the functionality of this method
-    const renderPage = () => {
-      if (currentPage === 'portfolio') {
-        return <Port />;
-      }
-      if (currentPage === 'about') {
-        return <HelloReact />;
-      }
-      if (currentPage === 'contact') {
-        return <ContactMe />;
-      }
-      if (currentPage === 'resume') {
-          return <Resume />;
-        }
+    // // TODO: Add a comment describing the functionality of this method
+    // const renderPage = () => {
+    //   if (currentPage === 'portfolio') {
+    //     return <Port />;
+    //   }
+    //   if (currentPage === 'about') {
+    //     return <HelloReact />;
+    //   }
+    //   if (currentPage === 'contact') {
+    //     return <ContactMe />;
+    //   }
+    //   if (currentPage === 'resume') {
+    //       return <Resume />;
+    //     }
      
-    };
+    // };
   
     // const handlePageChange = (page) => setCurrentPage(page);
   
@@ -48,23 +49,33 @@ function NavBar() {
     // );
     // }
 
-    return (
-      <div>
-        <header>
-          <Nav className='NavBar'>
-            {/* Use curly braces to embed JavaScript expressions */}
-            <div className='owner'>{owner.title}</div>
-            <div>
-              <a href="/about">About Me</a>
-              <a href="/portfolio">Portfolio</a>
-              <a href="/contact">Contact</a>
-              <a href="/resume">Resume</a>
-            </div>
-          </Nav>
-        </header>
-      </div>
-    );
-  }
+   
+       
+
+    
+          return (
+            <nav>
+                <div>
+                 <h1>{owner.title}</h1>
+                </div>
+              <ul>
+                <li>
+                  <Link to="/">About Me</Link>
+                </li>
+                <li>
+                  <Link to="/portfolio">porfolio</Link>
+                </li>
+                <li>
+                  <Link to="/contact">Contact</Link>
+                </li>
+                <li>
+                  <Link to="/resume">Resume</Link>
+                </li>
+              </ul>
+            </nav>
+          );
+        }
+  
   
   export default NavBar;
   
