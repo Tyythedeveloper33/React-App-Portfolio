@@ -8,7 +8,14 @@ import Logo from './logo';
     return (
         <div>
             <NavBar></NavBar>
-            {/* this is where content goes for Port */ }
+            <div className="contentP">
+          <a href="#"><img src="logo1.png" alt="Logo 1" /></a>
+          <a href="#"><img src="logo2.png" alt="Logo 2" /></a>
+          <a href="#"><img src="logo3.png" alt="Logo 3" /></a>
+          <a href="#"><img src="logo3.png" alt="Logo 3" /></a>
+          <a href="#"><img src="logo3.png" alt="Logo 3" /></a>
+          
+        </div>
             <Logo></Logo>
         </div>
     )

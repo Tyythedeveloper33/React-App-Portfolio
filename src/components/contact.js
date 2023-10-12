@@ -17,16 +17,16 @@ function ContactMe() {
       <div>
         <NavBar></NavBar>
   
-        <div className="content">
-          {"Contact Me" }
-        </div>
+        <div className="contentC">
+         <h1 className='contactMe'> Contact Me </h1>
+        
        
       <div className="container">
         <form >
         {/* onSubmit={this.handleSubmit}> */}
 
           <div className="form-group">
-            <label htmlFor="name">Name:</label>
+            <label htmlFor="name">Name: </label>
             <input
               type="text"
               id="name"
@@ -38,7 +38,7 @@ function ContactMe() {
           </div>
 
           <div className="form-group">
-            <label htmlFor="email">Email Address:</label>
+            <label htmlFor="email">Email :</label>
             <input
               type="email"
               id="email"
@@ -48,9 +48,9 @@ function ContactMe() {
               required
             />
           </div>
-
+<hr></hr>
           <div className="form-group">
-            <label htmlFor="message">Message:</label>
+            <label htmlFor="message"> -- Text:</label>
             <textarea
               id="message"
               name="message"
@@ -63,9 +63,11 @@ function ContactMe() {
           </div>
 
           {/* <button type="submit">Submit</button> */}
-      <Logo/>
-        </form>
+      
+        </form> 
+        </div>
       </div>
+      <Logo/>
       </div>
     );
   }

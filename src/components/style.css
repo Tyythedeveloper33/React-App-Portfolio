@@ -8,7 +8,7 @@ header {
     justify-content: space-between;
   }
   
-  .NavBar {
+  nav {
     display: flex;
     align-items: center;
     justify-content: space-between; 
@@ -18,21 +18,27 @@ header {
    flex: auto;
    align-items: center;
    flex-wrap: wrap;
+   background-color: black;
+   font-size: 16px;
    
+ 
+  }
+  nav h1{
+    color: whitesmoke;
+
   }
   
-  .NavBar a {
-    color: #00B2FF;
-    text-decoration: none;
+  Link {
+    color:white;
+    text-decoration:wavy;
     justify-content: right; 
     margin-left: 200px;
-   height: 125px;
-   flex-wrap: wrap;
+   flex-wrap:wrap;
    cursor: pointer;
    
   }
   
-  .NavBar a:last-child {
+  .NavBar li:last-child {
     margin-right: 0;
   }
   
@@ -43,6 +49,7 @@ header {
     padding: 20px;
     height: 55px;
     margin-top: 30px;
+    justify-content: space-around;
   }
   
   .footer img {
@@ -58,7 +65,7 @@ header {
  background-color: white;
  transform-origin: top;
  /* add depth with shadows*/
- box-shadow: 0px 0px 145px rgba(0, 0, 0,0.3);
+ box-shadow: 0px 0px 145px rgba(230, 225, 225, 0.3);
  padding: 15px;
  transform: perspective(1000px); 
 
@@ -101,3 +108,17 @@ color:black
     color: white;
 }
 
+.contentC{
+    width: 350px;
+    height: 285px;
+margin-left: 525px;
+box-shadow: 0px 0px 145px rgba(247, 244, 244, 0.3);
+background-color: black;
+margin-top: 50px;
+transform: perspective(1000px);
+color: #00B2FF;
+}
+.contactMe{
+    color: #00B2FF;
+    margin-left: 55px;
+}

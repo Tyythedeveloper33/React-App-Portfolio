@@ -5,9 +5,9 @@ function Logo(){
     return(
         
         <div className="footer">
-          <a href="#"><img src="logo1.png" alt="Logo 1" /></a>
-          <a href="#"><img src="logo2.png" alt="Logo 2" /></a>
-          <a href="#"><img src="logo3.png" alt="Logo 3" /></a>
+          <a href="https://github.com/Tyythedeveloper33"><img src="../public/githubicon.jpg" alt="Github" /></a>
+          <a href="#"><img src="./public/githubicon.jpg" alt="Heroku" /></a>
+          <a href="#"><img src="logo3.png" alt="Linkedin" /></a>
         </div>
     )
 }

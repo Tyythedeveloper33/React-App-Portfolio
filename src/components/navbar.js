@@ -54,24 +54,23 @@ function NavBar() {
 
     
           return (
-            <nav>
+            <nav >
                 <div>
                  <h1>{owner.title}</h1>
                 </div>
-              <ul>
-                <li>
+                <div>
                   <Link to="/">About Me</Link>
-                </li>
-                <li>
+                </div>
+                <div>
                   <Link to="/portfolio">porfolio</Link>
-                </li>
-                <li>
+                </div>
+                <div>
                   <Link to="/contact">Contact</Link>
-                </li>
-                <li>
+                </div>
+                <div>
                   <Link to="/resume">Resume</Link>
-                </li>
-              </ul>
+                </div>
+             
             </nav>
           );
         }
