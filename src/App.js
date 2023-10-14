@@ -4,8 +4,8 @@ import HelloReact from './components/HelloReact';
 import { BrowserRouter as Router, Routes, Route, createBrowserRouter, RouterProvider } from 'react-router-dom';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
-import Port from './components/port';
-import ContactMe from './components/contact';
+import Port from './components/Port';
+import ContactMe from './components/Contact';
 import Resume from './components/resume';
 
 

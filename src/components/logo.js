@@ -1,13 +1,16 @@
 import './style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import  image from '../assets/githubicon.jpg'
+import { FaBeer, FaGithubAlt , FaLinkedin, DiHeroku } from 'react-icons/fa';
 
 function Logo(){
     return(
         
         <div className="footer">
-          <a href="https://github.com/Tyythedeveloper33"><img src="../public/githubicon.jpg" alt="Github" /></a>
-          <a href="#"><img src="./public/githubicon.jpg" alt="Heroku" /></a>
-          <a href="#"><img src="logo3.png" alt="Linkedin" /></a>
+          <a href="https://github.com/Tyythedeveloper33" className='logo' alt="Github" 
+          > <FaGithubAlt className='githubLogo'/> </a>
+          <a href="https://www.linkedin.com/in/tyler-webster-a2872b296/" className='logo' alt="Linkedin" 
+          ><FaLinkedin className='linkedinLogo'/></a>
         </div>
     )
 }

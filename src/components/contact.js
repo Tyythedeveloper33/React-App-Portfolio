@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
-import NavBar from './navbar';
-import Logo from './logo';
+import NavBar from './Navbar';
+import Logo from './Logo';
 // TODO: Add a comment explaining what a react component is
 function ContactMe() {
   // const text = 'some text';

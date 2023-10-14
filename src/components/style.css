@@ -48,7 +48,7 @@ header {
     text-align: center;
     padding: 20px;
     height: 55px;
-    margin-top: 30px;
+    margin-top: 40px;
     justify-content: space-around;
   }
   
@@ -68,6 +68,7 @@ header {
  box-shadow: 0px 0px 145px rgba(230, 225, 225, 0.3);
  padding: 15px;
  transform: perspective(1000px); 
+ height: 300px;
 
 }
 body {
@@ -93,9 +94,9 @@ color:black
     color:#00B2FF
   }
   Button  {
-    margin-left: 50%;
+    margin-left: 46%;
    
-    
+    margin-top: 15px;
     cursor: pointer;
    
    
@@ -111,14 +112,61 @@ color:black
 .contentC{
     width: 350px;
     height: 285px;
-margin-left: 525px;
-box-shadow: 0px 0px 145px rgba(247, 244, 244, 0.3);
-background-color: black;
-margin-top: 50px;
-transform: perspective(1000px);
-color: #00B2FF;
+    margin-left: 525px;
+    box-shadow: 0px 0px 145px #00B2FF;
+    background-color: black;
+    margin-top: 90px;
+    transform: perspective(1000px);
+    color: #00B2FF;
 }
 .contactMe{
     color: #00B2FF;
     margin-left: 55px;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+.navLinks a{
+    color:#00B2FF;
+   text-decoration: none;
+   
+}
+.navLinks  :hover{
+    color:whitesmoke;
+}
+.githubLogo{
+   height: 50px;
+   width: 60px;
+   color: #00B2FF;
+}
+.linkedinLogo{
+  height: 50px;
+   width: 60px;
+   color: #00B2FF;
+}
+.githubLogo :hover{
+  padding: 15px;
+   color: whitesmoke;
+   
+}
+.linkedinLogo :hover{
+   color: whitesmoke;
+   padding: 15px;
+}
+.portIcon{
+  height: 70px;
+  width: 60px;
+  color: #00B2FF;
+  margin-left: 660px;
+  margin-top: 25px;
+}
+.contentP{
+  margin-left: 600px;
+  margin-top: 75px;
+
+}
+.AM {
+  font-size: 35px;
+  margin-left: 45px;
 }
