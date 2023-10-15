@@ -170,3 +170,28 @@ color:black
   font-size: 35px;
   margin-left: 45px;
 }
+.contentR {
+  margin-top:40px ;
+  background-color: white;
+  transform-origin: top;
+  /* add depth with shadows*/
+  box-shadow: 0px 0px 145px rgba(230, 225, 225, 0.3);
+  padding: 15px;
+  transform: perspective(1000px); 
+  height: 370px;
+ 
+ } 
+
+ .key {
+color: black;
+ }
+.buttonR{
+  background-color:#00B2FF; 
+  box-shadow: 0px 0px 145px rgba(0, 0, 0,0.3);
+ transform: perspective(1000px);
+ color: white;
+  margin-left: 44.5%;
+}
+ .foot{
+  margin-left: 30%;
+ }
