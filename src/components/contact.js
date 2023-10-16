@@ -2,6 +2,7 @@ import React from 'react';
 import './style.css';
 import NavBar from './Navbar';
 import Logo from './Logo';
+import { Button } from 'react-bootstrap';
 // TODO: Add a comment explaining what a react component is
 function ContactMe() {
   // const text = 'some text';
@@ -59,10 +60,10 @@ function ContactMe() {
               rows="4"
               required
             />
-           
+            <Button className= 'rr'type="submit">Submit</Button>
           </div>
 
-          {/* <button type="submit">Submit</button> */}
+         
       
         </form> 
         </div>
