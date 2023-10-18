@@ -1,7 +1,7 @@
 import './style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import  image from '../assets/githubicon.jpg'
-import { FaBeer, FaGithubAlt , FaLinkedin, DiHeroku } from 'react-icons/fa';
+
+import { FaBeer, FaGithubAlt , FaLinkedin, } from 'react-icons/fa';
 
 function Logo(){
     return(
