@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
-import NavBar from './Navbar';
-import Logo from './Logo';
+import NavBar from './navbar';
+import Logo from './logo';
 import { Button } from 'react-bootstrap';
 // TODO: Add a comment explaining what a react component is
 function ContactMe() {

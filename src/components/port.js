@@ -5,8 +5,8 @@ import  image2 from '../assets/Screenshot (11).png'
 import  image3 from '../assets/Screenshot (12).png'
 import './style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import NavBar from './Navbar';
-import Logo from './Logo';
+import NavBar from './navbar';
+import Logo from './logo';
  import { FaBeer, FaGithubAlt  } from 'react-icons/fa';
  import { Button } from 'react-bootstrap';
  function Port(){

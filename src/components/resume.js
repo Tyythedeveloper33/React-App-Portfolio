@@ -4,8 +4,8 @@ import './style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button } from 'react-bootstrap';
 
-import NavBar from './Navbar';
-import Logo from './Logo';
+import NavBar from './navbar';
+import Logo from './logo';
 function Resume(){
     
     return(
