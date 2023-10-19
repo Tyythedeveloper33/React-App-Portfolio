@@ -10,7 +10,7 @@ import Resume from './components/resume';
 
 
 // TODO: Add a comment explaining the purpose of the App component
-//function App() {
+// function App() {
     
     // 3️⃣ Router singleton created
   const router = createBrowserRouter([
@@ -23,7 +23,7 @@ import Resume from './components/resume';
 
   // 4️⃣ RouterProvider added
   export default function App() {
-    return <RouterProvider router={router} />;
+    return <RouterProvider router= {router} />;
   }
 
   // 1️⃣ Changed from App to Root
@@ -54,5 +54,5 @@ import Resume from './components/resume';
 
 
 
-//export default App;
+// export default App;
 
