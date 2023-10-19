@@ -11,24 +11,24 @@ import Resume from './components/resume';
 
 // TODO: Add a comment explaining the purpose of the App component
 // function App() {
-  const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <HelloReact />,
-      loader: HelloReact,
-      children: [
-        { path: '/portfolio', element: <Port />, loader: Port},
-      ],
-    },
-  ]);
-    // 3️⃣ Router singleton created
   // const router = createBrowserRouter([
-  //   { path: '/', Component: HelloReact},
-  //   { path: '/portfolio', Component: Port},
-  //   { path: '/contact', Component: ContactMe},
-  //   { path: '/resume', Component:Resume},
-  //   // { path: "*", Component: Root },
+  //   {
+  //     path: "/",
+  //     element: <HelloReact />,
+  //     loader: HelloReact,
+  //     children: [
+  //       { path: '/portfolio', element: <Port />, loader: Port},
+  //     ],
+  //   },
   // ]);
+    // 3️⃣ Router singleton created
+  const router = createBrowserRouter([
+    { path: '/', Component: HelloReact},
+    { path: '/portfolio', Component: Port},
+    { path: '/contact', Component: ContactMe},
+    { path: '/resume', Component:Resume},
+    // { path: "*", Component: Root },
+  ]);
 
   // 4️⃣ RouterProvider added
   export default function App() {
@@ -42,18 +42,12 @@ import Resume from './components/resume';
 
 
   //   return (
-  //     <>
+     
       
-  //       <Router>
-  //         <Routes>
-  //           <Route exact path="/" element={HelloReact}/>
-  //           <Route path="/portfolio" element={Port} />
-  //           <Route path="/contact" element={ContactMe} />
-  //           <Route path="/resume" element={Resume} />
-  //         </Routes>
-  //       </Router>
+        
+  //       "wrong route"
       
-  //     </>
+      
   //   );
   // }
   
