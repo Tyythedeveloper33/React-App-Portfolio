@@ -31,9 +31,9 @@ import Resume from './components/resume';
   // ]);
 
   // 4️⃣ RouterProvider added
-  // export default function App() {
-  //   return <RouterProvider router= {router} />;
-  // }
+  export default function App() {
+    return <RouterProvider router= {router} />;
+  }
 
   // 1️⃣ Changed from App to Root
   // function Root() {
