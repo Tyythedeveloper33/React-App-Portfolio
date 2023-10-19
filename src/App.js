@@ -11,20 +11,29 @@ import Resume from './components/resume';
 
 // TODO: Add a comment explaining the purpose of the App component
 // function App() {
-    
-    // 3️⃣ Router singleton created
   const router = createBrowserRouter([
-    { path: '/', Component: HelloReact},
-    { path: '/portfolio', Component: Port},
-    { path: '/contact', Component: ContactMe},
-    { path: '/resume', Component:Resume},
-    // { path: "*", Component: Root },
+    {
+      path: "/",
+      element: <HelloReact />,
+      loader: HelloReact,
+      children: [
+        { path: '/portfolio', element: <Port />, loader: Port},
+      ],
+    },
   ]);
+    // 3️⃣ Router singleton created
+  // const router = createBrowserRouter([
+  //   { path: '/', Component: HelloReact},
+  //   { path: '/portfolio', Component: Port},
+  //   { path: '/contact', Component: ContactMe},
+  //   { path: '/resume', Component:Resume},
+  //   // { path: "*", Component: Root },
+  // ]);
 
   // 4️⃣ RouterProvider added
-  export default function App() {
-    return <RouterProvider router= {router} />;
-  }
+  // export default function App() {
+  //   return <RouterProvider router= {router} />;
+  // }
 
   // 1️⃣ Changed from App to Root
   // function Root() {
