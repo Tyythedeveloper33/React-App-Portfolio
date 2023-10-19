@@ -18,7 +18,7 @@ import Resume from './components/resume';
     { path: '/portfolio', Component: Port},
     { path: '/contact', Component: ContactMe},
     { path: '/resume', Component:Resume},
-    // { path: "*", Component: Root },
+    { path: "*", Component: Root },
   ]);
 
   // 4️⃣ RouterProvider added
@@ -27,26 +27,26 @@ import Resume from './components/resume';
   }
 
   // 1️⃣ Changed from App to Root
-  // function Root() {
+  function Root() {
     // 2️⃣ `BrowserRouter` component removed, but the <Routes>/<Route>
     // component below are unchanged
 
 
-  //   return (
-  //     <>
-  //     <h2>Hello React</h2>
-  //       <Router>
-  //         <Routes>
-  //           <Route exact path="/" element={HelloReact}/>
-  //           <Route path="/portfolio" element={Port} />
-  //           <Route path="/contact" element={ContactMe} />
-  //           <Route path="/resume" element={Resume} />
-  //         </Routes>
-  //       </Router>
+    return (
+      <>
       
-  //     </>
-  //   );
-  // }
+        <Router>
+          <Routes>
+            <Route exact path="/" element={HelloReact}/>
+            <Route path="/portfolio" element={Port} />
+            <Route path="/contact" element={ContactMe} />
+            <Route path="/resume" element={Resume} />
+          </Routes>
+        </Router>
+      
+      </>
+    );
+  }
   
 
 
