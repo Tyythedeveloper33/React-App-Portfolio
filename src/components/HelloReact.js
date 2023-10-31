@@ -29,7 +29,7 @@ function HelloReact()  {
         
         </div>
           <Link to="/portfolio"> <Button className='button'> view work </Button></Link>
-          <Logo></Logo>
+          <Logo className="logog"></Logo>
   
         
       </div>

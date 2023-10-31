@@ -32,7 +32,7 @@ import Logo from './logo';
                </div>
                <div className='repo'>
             
-            <button className='Button'> <a href="https://github.com/hafsah1976/uFree">uFree Event Planner<FaGithubAlt/></a></button> 
+            <button className='Button'> <a href="https://github.com/hafsah1976/uFree">uFree Event Planner Repo<FaGithubAlt/></a></button> 
             <button className='Button'> <a href="https://github.com/angelinrajan/PoemApplication_GroupProject">Poem Dictionary App Repo<FaGithubAlt/></a></button> 
             <button className='Button'> <a href="https://github.com/Tyythedeveloper33/blogPost">blogPost App Repo(Blogstarzz)<FaGithubAlt/></a></button>
             <button className='Button'> <a href="https://github.com/Tyythedeveloper33/ReadMe-Generator">ReadMe Generator Repo<FaGithubAlt/></a></button> 

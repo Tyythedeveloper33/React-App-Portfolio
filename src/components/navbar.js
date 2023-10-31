@@ -18,7 +18,7 @@ function NavBar() {
           return (
             <nav >
                 <div >
-                 <h1>{owner.title}</h1>
+                 <h1 className='titleg' >{owner.title}</h1>
                 </div>
                 <div className='navLinks'>
                  <Link to="/" id="abMe">About Me</Link>

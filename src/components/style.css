@@ -251,4 +251,108 @@ background-color: #00B2FF;
  .quiz{
   margin-left: 525px;
  }
+ /* media screens for hello react comp */
+ @media screen and (max-width: 480px) {
+  .content {
+     width: 375px;
+     height:500px;
+     margin-top: 0px;
+     font-size:11px;
+     height: 300px;
+  }
+}
+ @media screen and (max-width: 480px) {
+  .button {
+    margin-left: 150px;
+  
+  }
+}
+ @media screen and (max-width: 480px) {
+  .footer {
+    margin-left: 30px;
+  
+  }
+}
+ @media screen and (max-width: 480px) {
+  .portIcon{
+    margin-left: 160px;
+    margin-top: 10px;
+  
+  }
+}
+ @media screen and (max-width: 480px) {
+  .AM{
+    margin-left: 110px;
+   
+  
+  }
+}
+ @media screen and (max-width: 480px) {
+  .navLinks{
+    font-size: 11px;
+   
+  
+  }
+}
+ @media screen and (max-width: 480px) {
+  .titleg{
+    font-size: 11px;
+   margin-left: 5px;
+  
+  }
+}
+/* media screen for port */
+@media screen and (max-width: 480px) {
+  .Cp3{
+    margin-left: 60px;
  
+  
+  }
+}
+@media screen and (max-width: 480px) {
+  .quiz{
+    margin-left: 60px;
+ 
+  
+  }
+}
+@media screen and (max-width: 480px) {
+  .Button{
+    margin-left: 65px;
+ width: 90px;
+ font-size: 11px;
+ 
+  
+  }
+}
+/* media screen for contact page */
+@media screen and (max-width: 480px) {
+  .contentC{
+    margin-left: 40px;
+ width: 310px;
+ 
+ 
+  
+  }
+}
+/* media screen for Resume page */
+@media screen and (max-width: 480px) {
+  .contentR {
+     width: 375px;
+     height:400px;
+     margin-top: 0px;
+     font-size:11px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .foot {
+   margin-left: 50px;
+     font-size:11px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .buttonR {
+   margin-left: 130px;
+     font-size:11px;
+  }
+}
