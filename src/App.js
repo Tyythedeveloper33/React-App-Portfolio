@@ -11,19 +11,10 @@ import Resume from './components/resume';
 
 // TODO: Add a comment explaining the purpose of the App component
 // function App() {
-  // const router = createBrowserRouter([
-  //   {
-  //     path: "/",
-  //     element: <HelloReact />,
-  //     loader: HelloReact,
-  //     children: [
-  //       { path: '/portfolio', element: <Port />, loader: Port},
-  //     ],
-  //   },
-  // ]);
+
     // 3️⃣ Router singleton created
   const router = createBrowserRouter([
-    { path: '/', Component: HelloReact},
+    { path: '/', element: HelloReact},
     { path: '/portfolio', Component: Port},
     { path: '/contact', Component: ContactMe},
     { path: '/resume', Component:Resume},
@@ -32,25 +23,22 @@ import Resume from './components/resume';
 
   // 4️⃣ RouterProvider added
   export default function App() {
-    return <RouterProvider router= {router} />;
+    return (
+    //<RouterProvider router= {router} />;
+      <Router>
+        <Routes>
+          <Route path='/' element={<HelloReact />} />
+          <Route path='/portfolio' element={<Port />} />
+          <Route path='/contact' element={<ContactMe />} />
+          <Route path='/resume' element={<Resume />} />
+        </Routes>
+      </Router>
+    )
   }
 
-  // 1️⃣ Changed from App to Root
-  // function Root() {
-    // 2️⃣ `BrowserRouter` component removed, but the <Routes>/<Route>
-    // component below are unchanged
-
-
-  //   return (
-     
-      
-        
-  //       "wrong route"
-      
-      
-  //   );
-  // }
   
+
+ 
 
 
 
