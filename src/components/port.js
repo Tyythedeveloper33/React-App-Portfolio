@@ -1,5 +1,5 @@
 import React from 'react';
-import  image from '../assets/Screenshot (9).png'
+import  image from '../assets/Screenshot (32).png'
 import  image1 from '../assets/Screenshot (10).png'
 import  image2 from '../assets/Screenshot (11).png'
 import  image3 from '../assets/Screenshot (12).png'
@@ -15,8 +15,8 @@ import Logo from './logo';
             <NavBar></NavBar>
             <p className='AM'>Portfolio</p> 
            <div>
-           <a href="https://tyythedeveloper33.github.io/test-time-improve/highscores.html"> <img src={image} alt="Coding Quiz App" className='Cp3' /></a>
-           <h1 className='quiz'>Coding Quiz Live-App</h1>
+           <a href="https://ufree-f24a66c626ea.herokuapp.com/"> <img src={image} alt="Event Planner" className='Cp3' /></a>
+           <h1 className='quiz'>uFree Event Planner</h1>
            <hr/>
              <a href="https://angelinrajan.github.io/PoemApplication_GroupProject/"><img src={image1} alt="Poem Dictionary App" className='Cp3' /></a> <h1 className='quiz'>Poem Dictionary Live-App</h1>
             
@@ -32,7 +32,7 @@ import Logo from './logo';
                </div>
                <div className='repo'>
             
-            <button className='Button'> <a href="https://github.com/Tyythedeveloper33/test-time-improve">Coding Quiz Repo<FaGithubAlt/></a></button> 
+            <button className='Button'> <a href="https://github.com/hafsah1976/uFree">uFree Event Planner<FaGithubAlt/></a></button> 
             <button className='Button'> <a href="https://github.com/angelinrajan/PoemApplication_GroupProject">Poem Dictionary App Repo<FaGithubAlt/></a></button> 
             <button className='Button'> <a href="https://github.com/Tyythedeveloper33/blogPost">blogPost App Repo(Blogstarzz)<FaGithubAlt/></a></button>
             <button className='Button'> <a href="https://github.com/Tyythedeveloper33/ReadMe-Generator">ReadMe Generator Repo<FaGithubAlt/></a></button> 
