@@ -254,7 +254,7 @@ background-color: #00B2FF;
  /* media screens for hello react comp */
  @media screen and (max-width: 480px) {
   .content {
-     width: 375px;
+     width: 390px;
      height:500px;
      margin-top: 0px;
      font-size:11px;
@@ -338,7 +338,7 @@ background-color: #00B2FF;
 /* media screen for Resume page */
 @media screen and (max-width: 480px) {
   .contentR {
-     width: 375px;
+     width: 390px;
      height:400px;
      margin-top: 0px;
      font-size:11px;
