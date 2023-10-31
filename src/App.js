@@ -1,7 +1,7 @@
 import React from 'react';
 // TODO: Add a comment explaining what this import statement is doing
 import HelloReact from './components/HelloReact';
-import { BrowserRouter as Router, Routes, Route, createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, createBrowserRouter, RouterProvider } from 'react-router-dom';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 import Port from './components/port';
